@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+.classic{
+
+    /* ################     METHOD 1     ################*/
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+    /*################     METHOD 2     ################*/
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; */
+
+
+    /*################     METHOD 3     ################*/
+
+    /* display: grid;
+    place-items: center;
+    height: 100vh; */
+}
